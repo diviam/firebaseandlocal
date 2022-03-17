@@ -26,7 +26,7 @@ export const Home = () => {
         if(err){
           toast.error(err)
         } else{
-          toast.success("Contact Deleted Successfully");
+          toast.success("Deleted Successfully");
         }
       });
     }
